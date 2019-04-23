@@ -3,7 +3,7 @@ class PigLatinizer
   attr_reader
 
   def initialize
-    @text = text
+
   end
 
   def method_name

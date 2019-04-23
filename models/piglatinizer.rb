@@ -20,3 +20,4 @@ class PigLatinizer
 end
 
 binding.pry
+puts "done"

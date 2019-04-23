@@ -10,7 +10,9 @@ class PigLatinizer
     if word.length <= 1
       return word+"way"
     else
-      word[1,word.length]+word[0]+"ay"
+      word1 =
+      word2 =
+      "ay"
     end
   end
 

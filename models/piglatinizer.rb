@@ -1,3 +1,5 @@
+require 'pry'
+
 class PigLatinizer
   attr_accessor :text
   attr_reader
@@ -16,3 +18,5 @@ class PigLatinizer
   end
 
 end
+
+binding.pry

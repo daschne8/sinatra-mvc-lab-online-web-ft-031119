@@ -7,7 +7,11 @@ class PigLatinizer
   end
 
   def piglatinize(word)
-    word[1,word.length]+word[0]+"way"
+    if word.length <= 1 
+      return word+"way"
+    else
+      word[1,word.length]+word[0]+"ay"
+    end
   end
 
 end

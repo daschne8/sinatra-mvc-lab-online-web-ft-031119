@@ -19,5 +19,8 @@ class PigLatinizer
 
 end
 
+
+PigLatinizer.new
+pl.piglatinize("pork")
 binding.pry
 puts "done"

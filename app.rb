@@ -2,11 +2,11 @@ require_relative 'config/environment'
 
 class App < Sinatra::Base
 
-  get '' do
+  get '/' do
 
   end
 
-  post '' do
+  post '/' do
 
   end
 

@@ -6,8 +6,8 @@ class PigLatinizer
 
   end
 
-  def method_name
-
+  def piglatinize(word)
+    word[1,word.length]+word[0]+"ay"
   end
 
 end

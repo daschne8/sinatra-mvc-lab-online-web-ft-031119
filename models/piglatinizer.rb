@@ -12,7 +12,7 @@ class PigLatinizer
     else
       word1 =
       word2 =
-      "ay"
+      word1 + word2 + "ay"
     end
   end
 

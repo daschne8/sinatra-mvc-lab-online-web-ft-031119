@@ -12,7 +12,7 @@ class PigLatinizer
     if word.length <= 1
       return word+"way"
     else
-      word1,word2 = word.split(/^[aeiou]*[bcdfghjklmnpqrstvwxyz]+/).delete("")
+      word1,word2 = word.split(/(^[aeiou]*[bcdfghjklmnpqrstvwxyz])+/).delete("")
       return word1 + word2 + "ay"
     end
   end
